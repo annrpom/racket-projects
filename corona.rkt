@@ -41,7 +41,7 @@
 (check-expect (draw-person p2) (place-image p-img 40 30 bg))
 (check-expect (draw-person p3) (place-image p-recover 60 30 bg))
 
-;; note : infect will have to be nested within something bc no void returns
+;; note : infect will have to return the data struct in order to properly mutate it
 
 ; dist : Posn Posn -> Number
 ; computes the distance between two Posns
