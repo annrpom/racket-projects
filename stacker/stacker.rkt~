@@ -1,0 +1,6 @@
+#lang br/quicklang
+
+;; stacker
+;; reverse polish notation
+;; a "little language" made for
+;; a specialized purpose (a DSL)
